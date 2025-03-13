@@ -4,7 +4,7 @@ import "./App.css"; // Puedes agregar estilos en este archivo si lo deseas
 function App() {
   const [input, setInput] = useState("");
 
-  // Función para manejar los clics en los botones
+  // Función para manejar los clics en los BOTONES
   const handleClick = (value) => {
     setInput(input + value);
   };
